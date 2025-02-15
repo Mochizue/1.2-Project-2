@@ -1,0 +1,213 @@
+
+/* <!-- Media queries -->  */
+
+@media(max-width: 1580px){
+
+  .cards-container{
+
+    grid-template-columns: 1fr 1fr;
+
+  }
+
+}
+
+@media(max-width: 1300px){
+
+  .content-responsive-container{
+
+    padding: 0 8rem;
+  
+  }
+
+}
+
+@media(max-width: 1250px){
+
+  .content-responsive-container{
+
+    padding: 0 6rem;
+  
+  }
+
+}
+
+@media(max-width: 1100px){
+
+  .content-responsive-container{
+
+    padding: 0 4rem;
+  
+  }
+
+  header{
+
+    grid-template-columns: .5fr 3.3fr 1fr;
+
+  }
+
+  header .h-middle{
+
+    justify-content: end;
+
+  }
+
+  header .h-middle a{
+
+    display: none;
+
+  }
+
+  header .h-middle .burger-menu{
+
+    display: flex;
+
+  }
+
+}
+
+@media(max-width: 1000px){
+
+  .cards{
+
+    height: auto;
+    grid-template-columns: 1fr;
+
+  }
+
+  .cards .c-left{
+
+    justify-content: start;
+
+  }
+
+  .cards .c-right h1{
+
+    color: var(--dark-grey);
+    font-size: 1.5rem;
+    font-weight: 700;
+  
+  }
+  
+  .cards .c-right p{
+  
+    color: var(--dark-grey);
+    margin: 0;
+    font-size: 1rem;
+  
+  }
+
+  .img-hover .img-card{
+
+    height: auto;
+    width: auto;
+
+  }
+
+  .img-hover .img-card .ic-text{
+
+    display: none;
+
+  }
+
+}
+
+@media(max-width: 900px){
+
+  .content-responsive-container{
+
+    padding: 0 2rem;
+  
+  }
+
+}
+
+@media(max-width: 750px){
+
+  .content-responsive-container{
+
+    padding: 0 1rem;
+  
+  }
+
+  .cards-container{
+
+    grid-template-columns: 1fr;
+
+  }
+
+}
+
+@media(max-width: 600px){
+
+  .hero-content h1,p,.subtext{
+
+    width: 100% !important;
+
+  }
+
+  .hero-content h1{
+
+    font-size: 2rem;
+    text-align: center;
+    margin-top: .5rem;
+    margin-bottom: 2rem;
+
+  }
+
+  .hero-content p{
+
+    text-align: center;
+    font-size: .9rem;
+
+  }
+
+  .buttons{
+
+    flex-direction: column;
+    width: 100%;
+
+  }
+
+  .buttons button{
+
+    font-size: .9rem !important;
+
+  }
+
+  .cards .c-right p{
+
+    font-size: .9rem;
+
+  }
+
+  .cards .c-right h1{
+
+    font-size: 1.2rem;
+
+  }
+
+  .side-bar{
+
+    width: 100%;
+
+  }
+
+  .hero-2-content{
+
+    padding: 5rem 0;
+
+  }
+
+  .hero-2-content .img-hover{
+
+    bottom: 80px;
+
+  }
+
+  .hero-2-content img{
+
+    object-position: 20%;
+
+  }
+
+}
